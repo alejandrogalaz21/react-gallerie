@@ -2,29 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Caption from './Caption'
 import './grid.css'
+import { selectEffect } from './helpers'
 
-const selectEffect = (effect) => {
-  switch (effect) {
-    case 1:
-      return `effect-${effect}`
-    case 2:
-      return `effect-${effect}`
-    case 3:
-      return `effect-${effect}`
-    case 4:
-      return `effect-${effect}`
-    case 5:
-      return `effect-${effect}`
-    default:
-      return `effect-1`
-  }
-}
-
-const randomEffect = () => Math.floor(Math.random() * 5) + 1
-
-const Gallerie = ({ images, url, effect }) => {
+const Gallerie = ({ images, url, captionEffect }) => {
   return (
-    <div className={`row grid ${selectEffect(effect)}`}>
+    <div className={`row grid ${selectEffect(captionEffect)}`}>
       {images.map((image, i) => (
         <Caption key={i} {...image} url={`${url}/${image.image}`} />
       ))}
@@ -35,6 +17,7 @@ const Gallerie = ({ images, url, effect }) => {
 Gallerie.propTypes = {
   images: PropTypes.array.isRequired,
   url: PropTypes.string.isRequired,
+  captionEffect: PropTypes.number.isRequired,
 }
 
 export default Gallerie

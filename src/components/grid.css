@@ -65,9 +65,9 @@
   }
 }
 
-/* effect-1 */
+/* caption-effect-1 */
 
-.effect-1 figcaption {
+.caption-effect-1 figcaption {
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -76,65 +76,65 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.no-touch .effect-1 figure:hover figcaption,
-.effect-1 figure.cs-hover figcaption {
+.no-touch .caption-effect-1 figure:hover figcaption,
+.caption-effect-1 figure.cs-hover figcaption {
   opacity: 1;
   transform: translate(15px, 15px);
 }
 
-.effect-1 figcaption h3 {
+.caption-effect-1 figcaption h3 {
   margin-top: 70px;
 }
 
-.effect-1 figcaption span {
+.caption-effect-1 figcaption span {
   display: block;
 }
 
-.effect-1 figcaption a {
+.caption-effect-1 figcaption a {
   margin-top: 30px;
 }
 
-/* effect-2 */
+/* caption-effect-2 */
 
-.effect-2 figure img {
+.caption-effect-2 figure img {
   z-index: 10;
   transition: transform 0.4s;
 }
 
-.no-touch .effect-2 figure:hover img,
-.effect-2 figure.cs-hover img {
+.no-touch .caption-effect-2 figure:hover img,
+.caption-effect-2 figure.cs-hover img {
   transform: translateY(-90px);
 }
 
-.effect-2 figcaption {
+.caption-effect-2 figcaption {
   height: 90px;
   width: 100%;
   top: auto;
   bottom: 0;
 }
 
-.effect-2 figcaption a {
+.caption-effect-2 figcaption a {
   position: absolute;
   right: 20px;
   top: 30px;
 }
 
-/* effect-3 */
+/* caption-effect-3 */
 
-.effect-3 figure {
+.caption-effect-3 figure {
   overflow: hidden;
 }
 
-.effect-3 figure img {
+.caption-effect-3 figure img {
   transition: transform 0.4s;
 }
 
-.no-touch .effect-3 figure:hover img,
-.effect-3 figure.cs-hover img {
+.no-touch .caption-effect-3 figure:hover img,
+.caption-effect-3 figure.cs-hover img {
   transform: translateY(-50px);
 }
 
-.effect-3 figcaption {
+.caption-effect-3 figcaption {
   height: 100px;
   width: 100%;
   top: auto;
@@ -144,44 +144,44 @@
   transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.no-touch .effect-3 figure:hover figcaption,
-.effect-3 figure.cs-hover figcaption {
+.no-touch .caption-effect-3 figure:hover figcaption,
+.caption-effect-3 figure.cs-hover figcaption {
   opacity: 1;
   transform: translateY(0px);
   transition: transform 0.4s, opacity 0.1s;
 }
 
-.effect-3 figcaption a {
+.caption-effect-3 figcaption a {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
 
-/* effect-4 */
+/* caption-effect-4 */
 
-.effect-4 li {
+.caption-effect-4 li {
   perspective: 1700px;
   perspective-origin: 0 50%;
 }
 
-.effect-4 figure {
+.caption-effect-4 figure {
   transform-style: preserve-3d;
 }
 
-.effect-4 figure > div {
+.caption-effect-4 figure > div {
   overflow: hidden;
 }
 
-.effect-4 figure img {
+.caption-effect-4 figure img {
   transition: transform 0.4s;
 }
 
-.no-touch .effect-4 figure:hover img,
-.effect-4 figure.cs-hover img {
+.no-touch .caption-effect-4 figure:hover img,
+.caption-effect-4 figure.cs-hover img {
   transform: translateX(25%);
 }
 
-.effect-4 figcaption {
+.caption-effect-4 figcaption {
   height: 100%;
   width: 50%;
   opacity: 0;
@@ -191,32 +191,32 @@
   transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.no-touch .effect-4 figure:hover figcaption,
-.effect-4 figure.cs-hover figcaption {
+.no-touch .caption-effect-4 figure:hover figcaption,
+.caption-effect-4 figure.cs-hover figcaption {
   opacity: 1;
   transform: rotateY(0deg);
   transition: transform 0.4s, opacity 0.1s;
 }
 
-.effect-4 figcaption a {
+.caption-effect-4 figcaption a {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
 
-/* effect-5 */
+/* caption-effect-5 */
 
-.effect-5 figure img {
+.caption-effect-5 figure img {
   z-index: 10;
   transition: transform 0.4s;
 }
 
-.no-touch .effect-5 figure:hover img,
-.effect-5 figure.cs-hover img {
+.no-touch .caption-effect-5 figure:hover img,
+.caption-effect-5 figure.cs-hover img {
   transform: scale(0.4);
 }
 
-.effect-5 figcaption {
+.caption-effect-5 figcaption {
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -225,13 +225,13 @@
   transition: transform 0.4s, opacity 0.4s;
 }
 
-.no-touch .effect-5 figure:hover figcaption,
-.effect-5 figure.cs-hover figcaption {
+.no-touch .caption-effect-5 figure:hover figcaption,
+.caption-effect-5 figure.cs-hover figcaption {
   transform: scale(1);
   opacity: 1;
 }
 
-.effect-5 figure a {
+.caption-effect-5 figure a {
   position: absolute;
   bottom: 20px;
   right: 20px;
