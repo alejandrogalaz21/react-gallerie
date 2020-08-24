@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Caption from './Caption'
 import './grid.css'
 import './caption.css'
+
 import { selectCE, selectGE } from './helpers'
 
 const Gallerie = ({ images, url, effect, captionEffect }) => {

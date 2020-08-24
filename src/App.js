@@ -153,7 +153,7 @@ function App() {
         </h1>
       </header>
       <div className='container-fluid'>
-        <Grid images={gallerie} url={'gallerie'} effect={2} />
+        <Grid images={gallerie} url={'gallerie'} effect={2} captionEffect={4} />
       </div>
     </Fragment>
   )
