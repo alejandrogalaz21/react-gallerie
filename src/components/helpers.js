@@ -1,4 +1,4 @@
-export const selectEffect = (effect) => {
+export const selectCE = (effect) => {
   switch (effect) {
     case 1:
       return `caption-effect-${effect}`
@@ -14,5 +14,8 @@ export const selectEffect = (effect) => {
       return `caption-effect-1`
   }
 }
+
+export const selectGE = (effect) =>
+  effect <= 8 ? `effect-${effect}` : 'effect-1'
 
 export const randomEffect = () => Math.floor(Math.random() * 5) + 1
